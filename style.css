@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+#particles-js::after {
+  content: 'Particles';
+  color: rgba(224, 203, 7, 0.466);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
